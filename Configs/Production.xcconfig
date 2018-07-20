@@ -1,0 +1,16 @@
+//
+//  Prod.xcconfig
+//  fitbook
+//
+//  Created by ODC on 7/20/18.
+//  Copyright © 2018 Orange Developer Center. All rights reserved.
+//
+
+IS_APP_NAME = fitbook
+IS_APP_VERSION = 1.0
+IS_APP_BUILD = 1
+IS_APP_BUNDLE_ID = com.wappster.fitbook
+IS_APP_ICON = AppIcon
+URL_BASE = http:/$()/pqp.odc.tn
+
+#include "Pods/Target Support Files/Pods-fitbook/Pods-fitbook.release.xcconfig"
